@@ -11,7 +11,7 @@ body, html {
     margin: 0 auto;
 
 }
-
+/*background image */
 .bgimg {
     background-image: url('./img/logo.jpg');
     height: 100%;
@@ -22,19 +22,19 @@ body, html {
     font-family: "Courier New", Courier, monospace;
     font-size: 25px;
 }
-
+/*Top Logo text*/
 .topleft {
 
     display: flex;
     justify-content: flex-start;
 
 }
-
+/*Social Icons*/
 .social {
     margin-left: auto;
     margin-top: 15px;
 }
-
+/*Copyright area*/
 .bottomleft {
     position: absolute;
     bottom: 0;
@@ -48,7 +48,7 @@ a{
     color:#ff9c00;
 }
 
-
+/*Main Body*/
 .middle {
     position: absolute;
     top: 50%;
@@ -56,18 +56,19 @@ a{
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
+/*Horizontal line in Body*/
 hr {
     margin: auto;
     width: 40%;
 }
+/* Form Styling*/
 form{
     margin:0 auto;
     display:table;
     margin-top:50px;
 }
 
-input[type="text"]{
+input[type="text"]{  /* Email Input Box Styling*/
     border-radius:5px;
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
@@ -83,7 +84,7 @@ input[type="text"]{
     padding-left:20px;
     width:300px;
 }
-
+/*Submit button Styling*/
 input[type="submit"]{
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -108,7 +109,7 @@ input[type="submit"]{
 input[type="submit"]:hover{
     color: #FFF;
 }
-
+/*Social Icons Styling*/
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -148,7 +149,7 @@ input[type="submit"]:hover{
   color: white;
   opacity: 0.7;
 }
-
+/*Responsive for different devices*/
  @media screen and (max-width: 360px) and (min-width: 320px) {
   .social {
     display: inline-flex;
